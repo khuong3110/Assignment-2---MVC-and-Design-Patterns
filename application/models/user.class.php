@@ -21,11 +21,11 @@
 
     public function getName() {
       return array (
-        'userID' => $this->$userID,
-        'firstname' => $this->$firstname,
-        'lastname' => $this->$lastname,
-        'email' => $this->$email,
-        'role' => $this->$role
+        'userID' => $this->userID,
+        'firstname' => $this->firstname,
+        'lastname' => $this->lastname,
+        'email' => $this->email,
+        'role' => $this->role
       );
     }
 

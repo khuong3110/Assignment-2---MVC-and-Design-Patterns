@@ -19,11 +19,11 @@
 
 
       echo "<ul>";
-      echo "<li>" . "User ID: " . $userID . "</li>";
-      echo "<li>" . "First Name: " . $firstname . "</li>";
-      echo "<li>" . "Last Name: " . $lastname . "</li>";
-      echo "<li>" . "Email: " . $email . "</li>";
-      echo "<li>" . "Role: " . $role . "</li>";
+      echo "<li>" . "User ID: " . $user->userID . "</li>";
+      echo "<li>" . "First Name: " . $user->firstname . "</li>";
+      echo "<li>" . "Last Name: " . $user->lastname . "</li>";
+      echo "<li>" . "Email: " . $user->email . "</li>";
+      echo "<li>" . "Role: " . $user->role . "</li>";
       echo "</ul>";
     ?>
 </body>
